@@ -23,7 +23,10 @@ Vue.use(Meta);
 
 //Vue.config.productionTip = false
 //Vue.prototype.$code = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0dXMiOmZhbHNlLCJfaWQiOiI1YjVhY2Y5NGZkMjIyNjM1NmQ1N2VjYWMiLCJ1c2VybmFtZSI6InRlc3QiLCJwYXNzd29yZCI6InRlc3QiLCJuYW1lIjoidGVzdCAxIiwiY3JlYXRlZCI6IjIwMTgtMDctMjdUMDc6NTM6NTYuODIzWiIsInVwZGF0ZWQiOiIyMDE4LTA3LTI3VDA3OjUzOjU2LjgyM1oiLCJfX3YiOjAsImlhdCI6MTUzMzYzMTk5MX0.sbu1qh5gv_OYaFXxHB7mRlRLtI1HRqY1PFiBNYXqOjk'
-Vue.prototype.$code = 'b84dea15a2152a44c4c69857806be7abed99222bff';
+
+
+Vue.prototype.$code = config.MY_KEY;
+
 
 const router = new VueRouter({
   routes: Routes,
