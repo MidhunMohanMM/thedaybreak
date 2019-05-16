@@ -1,4 +1,4 @@
-# vuejs-playlist
+# The DayBreak Newspaper
 
 > A Vue.js project
 
