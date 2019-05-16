@@ -27,7 +27,6 @@ Vue.use(Meta);
 
 Vue.prototype.$code = config.MY_KEY;
 
-
 const router = new VueRouter({
   routes: Routes,
   mode: 'history'
